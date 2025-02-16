@@ -1,5 +1,5 @@
 {
-  "name": "front",
+  "name": "@pet/front",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@pet/backend": "workspace:*",
+    "@tanstack/react-query": "^4.13.0",
+    "@trpc/client": "^10.45.2",
+    "@trpc/react-query": "^10.45.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
